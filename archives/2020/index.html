@@ -505,6 +505,53 @@
           
         
           
+            <div class='post-wrapper'>
+              <div class="post post-v3 white-box reveal shadow">
+  
+  
+    <div class='pin'>
+      <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4cc.svg'/>
+    </div>
+  
+  
+  
+    
+    <h2 class="article-title" pin>
+      <a href="/2020/10/08/%E7%BD%91%E7%AB%99%E8%BF%98%E5%9C%A8%E5%BB%BA%E8%AE%BEing/">
+        网站还在建设ing
+      </a>
+    </h2>
+  
+  <div class='md'>
+    
+      
+        博客框架用的是hexo,主题用的是volaintis。
+这个网站现在放出来，只是让大家知道有这么一个网站，至于我要干什么，可以移步关于我们
+
+      
+    
+  </div>
+  
+    <div class='meta-v3' line_style='solid'>
+      <div>
+        
+        <time>2020-10-08</time>
+        
+      </div>
+      
+        <div>
+          <a class='readmore' href='/2020/10/08/%E7%BD%91%E7%AB%99%E8%BF%98%E5%9C%A8%E5%BB%BA%E8%AE%BEing/'>
+            Read More
+          </a>
+        </div>
+      
+    </div>
+  
+
+</div>
+
+            </div>
+          
         
       
     
@@ -558,49 +605,6 @@ QQ群：
           </div>
         
       
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow">
-  
-  
-  
-  
-    
-    <h2 class="article-title" >
-      <a href="/2020/10/08/%E7%BD%91%E7%AB%99%E8%BF%98%E5%9C%A8%E5%BB%BA%E8%AE%BEing/">
-        网站还在建设ing
-      </a>
-    </h2>
-  
-  <div class='md'>
-    
-      
-        博客框架用的是hexo,主题用的是volaintis。
-这个网站现在放出来，只是让大家知道有这么一个网站，至于我要干什么，可以移步关于我们
-
-      
-    
-  </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time>2020-10-08</time>
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2020/10/08/%E7%BD%91%E7%AB%99%E8%BF%98%E5%9C%A8%E5%BB%BA%E8%AE%BEing/'>
-            Read More
-          </a>
-        </div>
-      
-    </div>
-  
-
-</div>
-
-          </div>
         
       
     
@@ -929,7 +933,7 @@ const ROOT =  ("/" || "/").endsWith('/') ? ("/" || "/") : ("//" || "/" );
       // 请求 PV 并自增
       var pvCtn = document.querySelector('#lc-sv');
       if (pvCtn || enableIncr) {
-        var pvGetter = this.getRecord(Counter, 'http://iseelntu' + '/#lc-sv', 'Visits').then((record) => {
+        var pvGetter = this.getRecord(Counter, 'http://iseelntu.com' + '/#lc-sv', 'Visits').then((record) => {
           incrArr.push(this.buildIncrement(record.objectId))
           var eles = document.querySelectorAll('#lc-sv #number');
           if (eles.length > 0) {
@@ -947,7 +951,7 @@ const ROOT =  ("/" || "/").endsWith('/') ? ("/" || "/") : ("//" || "/" );
       // 请求 UV 并自增
       var uvCtn = document.querySelector('#lc-uv');
       if (uvCtn || enableIncr) {
-        var uvGetter = this.getRecord(Counter, 'http://iseelntu' + '/#lc-uv', 'Visitors').then((record) => {
+        var uvGetter = this.getRecord(Counter, 'http://iseelntu.com' + '/#lc-uv', 'Visitors').then((record) => {
           var vuv = this.validUV();
           vuv && incrArr.push(this.buildIncrement(record.objectId))
           var eles = document.querySelectorAll('#lc-uv #number');
@@ -969,7 +973,7 @@ const ROOT =  ("/" || "/").endsWith('/') ? ("/" || "/") : ("//" || "/" );
         for (i = 0; i < allPV.length; i++) {
           let pv = allPV[i];
           let title = pv.getAttribute('data-title');
-          var url = 'http://iseelntu' + pv.getAttribute('data-path');
+          var url = 'http://iseelntu.com' + pv.getAttribute('data-path');
           if (url) {
             var viewGetter = this.getRecord(Counter, url, title).then((record) => {
               // 是当前页面就自增

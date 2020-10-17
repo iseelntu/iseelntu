@@ -576,7 +576,7 @@
   screenshot(网站截图): https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1602177480853&amp;di=fc468e23bf9374b6cdf840ba322e6d80&amp;imgtype=0&amp;src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F202008%2F29%2F20200829124825_CMhuS.thumb.400_0.jpeg # 截图
   keywords: 233 # 关键词
   description: 2333 # 描述</code></pre>
-<p>然后发送邮件到<a href="mailto:&#x69;&#x73;&#x65;&#101;&#x6c;&#110;&#x74;&#117;&#64;&#x71;&#x71;&#46;&#x63;&#x6f;&#x6d;">&#x69;&#x73;&#x65;&#101;&#x6c;&#110;&#x74;&#117;&#64;&#x71;&#x71;&#46;&#x63;&#x6f;&#x6d;</a></p>
+<p>然后发送邮件到<a href="mailto:&#x69;&#115;&#x65;&#101;&#x6c;&#x6e;&#x74;&#x75;&#x40;&#113;&#x71;&#x2e;&#99;&#111;&#x6d;">&#x69;&#115;&#x65;&#101;&#x6c;&#x6e;&#x74;&#x75;&#x40;&#113;&#x71;&#x2e;&#99;&#111;&#x6d;</a></p>
     
 
 
@@ -930,7 +930,7 @@ const ROOT =  ("/" || "/").endsWith('/') ? ("/" || "/") : ("//" || "/" );
       // 请求 PV 并自增
       var pvCtn = document.querySelector('#lc-sv');
       if (pvCtn || enableIncr) {
-        var pvGetter = this.getRecord(Counter, 'http://iseelntu' + '/#lc-sv', 'Visits').then((record) => {
+        var pvGetter = this.getRecord(Counter, 'http://iseelntu.com' + '/#lc-sv', 'Visits').then((record) => {
           incrArr.push(this.buildIncrement(record.objectId))
           var eles = document.querySelectorAll('#lc-sv #number');
           if (eles.length > 0) {
@@ -948,7 +948,7 @@ const ROOT =  ("/" || "/").endsWith('/') ? ("/" || "/") : ("//" || "/" );
       // 请求 UV 并自增
       var uvCtn = document.querySelector('#lc-uv');
       if (uvCtn || enableIncr) {
-        var uvGetter = this.getRecord(Counter, 'http://iseelntu' + '/#lc-uv', 'Visitors').then((record) => {
+        var uvGetter = this.getRecord(Counter, 'http://iseelntu.com' + '/#lc-uv', 'Visitors').then((record) => {
           var vuv = this.validUV();
           vuv && incrArr.push(this.buildIncrement(record.objectId))
           var eles = document.querySelectorAll('#lc-uv #number');
@@ -970,7 +970,7 @@ const ROOT =  ("/" || "/").endsWith('/') ? ("/" || "/") : ("//" || "/" );
         for (i = 0; i < allPV.length; i++) {
           let pv = allPV[i];
           let title = pv.getAttribute('data-title');
-          var url = 'http://iseelntu' + pv.getAttribute('data-path');
+          var url = 'http://iseelntu.com' + pv.getAttribute('data-path');
           if (url) {
             var viewGetter = this.getRecord(Counter, url, title).then((record) => {
               // 是当前页面就自增
