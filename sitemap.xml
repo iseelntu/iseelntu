@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://iseelntu.com/%E9%99%A2%E5%AD%A6%E7%94%9F%E4%BC%9A-%E8%90%A5%E9%94%80%E7%AE%A1%E7%90%86%E5%AD%A6%E9%99%A2/</loc>
+    
+    <lastmod>2020-10-23</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://iseelntu.com/contributor/index.html</loc>
     
     <lastmod>2020-10-17</lastmod>
@@ -19,13 +26,6 @@
     <loc>http://iseelntu.com/album/index.html</loc>
     
     <lastmod>2020-10-17</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://iseelntu.com/%E9%99%A2%E5%AD%A6%E7%94%9F%E4%BC%9A-%E8%90%A5%E9%94%80%E7%AE%A1%E7%90%86%E5%AD%A6%E9%99%A2/</loc>
-    
-    <lastmod>2020-10-16</lastmod>
     
   </url>
   
@@ -60,7 +60,7 @@
 
   <url>
     <loc>http://iseelntu.com/</loc>
-    <lastmod>2020-10-18</lastmod>
+    <lastmod>2020-10-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -68,21 +68,21 @@
   
   <url>
     <loc>http://iseelntu.com/tags/%E9%99%A2%E5%AD%A6%E7%94%9F%E4%BC%9A/</loc>
-    <lastmod>2020-10-18</lastmod>
+    <lastmod>2020-10-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://iseelntu.com/tags/%E8%90%A5%E9%94%80%E7%AE%A1%E7%90%86%E5%AD%A6%E9%99%A2%E5%AD%A6%E7%94%9F%E4%BC%9A/</loc>
-    <lastmod>2020-10-18</lastmod>
+    <lastmod>2020-10-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://iseelntu.com/tags/%E4%BB%8B%E7%BB%8D/</loc>
-    <lastmod>2020-10-18</lastmod>
+    <lastmod>2020-10-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -91,7 +91,7 @@
   
   <url>
     <loc>http://iseelntu.com/categories/%E9%99%A2%E5%AD%A6%E7%94%9F%E4%BC%9A/</loc>
-    <lastmod>2020-10-18</lastmod>
+    <lastmod>2020-10-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
