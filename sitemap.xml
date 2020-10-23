@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://iseelntu.com/links/index.html</loc>
+    
+    <lastmod>2020-10-23</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://iseelntu.com/%E9%99%A2%E5%AD%A6%E7%94%9F%E4%BC%9A-%E8%90%A5%E9%94%80%E7%AE%A1%E7%90%86%E5%AD%A6%E9%99%A2/</loc>
     
     <lastmod>2020-10-23</lastmod>
@@ -26,13 +33,6 @@
     <loc>http://iseelntu.com/album/index.html</loc>
     
     <lastmod>2020-10-17</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://iseelntu.com/links/index.html</loc>
-    
-    <lastmod>2020-10-09</lastmod>
     
   </url>
   
